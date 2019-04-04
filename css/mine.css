@@ -1,0 +1,53 @@
+.margin{
+    margin: auto;
+    margin-right: 80px;
+}
+.modal-content{
+    color: black;
+}
+.modal-title{
+    color: royalblue;
+    float: left;
+    padding-left: 5px;
+}
+.salary{
+    color: red;
+}
+.form-control-sm{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.marginleft{
+    margin-left: 20px;
+}
+.forms{
+    margin-left: 400px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.btncst{
+    margin-top: 20px;
+   margin-left: 100px;
+}
+.slide{
+    margin-top: 200px;
+}
+.imgslide{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+}
+.hover:hover{
+    color: rgb(255, 0, 21);;
+}
+.back{
+    background-image: url("back.jpg");
+    background-color: #cccccc;
+}
+.backjobs{
+    background-color: rgba(31, 8, 8, 0.89);
+}
+.skills{
+    color: blueviolet;
+    font-family: Merriweather Sans - 500;
+}
