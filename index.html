@@ -93,35 +93,35 @@
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-user-md text-primary mb-4"></i>
-            <h3  onclick="myFunction()" class=" h4 mb-2 hover">Check Jobs</h3>
+            <h3  onclick=" fonctionw('jobs.html') "class=" btn btn-outline-danger h4 mb-5 ">Check Jobs</h3>
             <p class="text-muted mb-0">Get idea on the jobs</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-code text-primary mb-4"></i>
-            <h3 class="h4 mb-2 hover">Check Code skills</h3>
+            <h3 class="h4 mb-5 btn btn-outline-danger">Check Code skills</h3>
             <p class="text-muted mb-0">Check all the programing languages and thier library</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-id-badge text-primary mb-4"></i>
-            <h3 class="h4 mb-2 hover">Check Lisences</h3>
+            <h3 data-toggle="modal" data-target="#CN"  onclick="" class="h4 mb-5 btn btn-outline-danger">Check Lisences</h3>
             <p class="text-muted mb-0">Check Lisences so u can find the equal one to yours</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-atlas text-primary mb-4"></i>
-            <h3 class="h4 mb-2 hover">Click on the HEART</h3>
+            <h3 class="h4 mb-5 btn btn-outline-danger">Click on the HEART</h3>
             <p class="text-muted mb-0 hover">Click on the heart so u get a form that can give us Ur informations</p>
           </div>
         </div>
       </div>
     </div>
   </section>
-
+  
   <!-- Portfolio Section -->
   <section id="portfolio">
     <div class="container-fluid p-0">
@@ -246,6 +246,61 @@
       <div class="small text-center text-muted">Copyright 2019 - Baha Chammakhi</div>
     </div>
   </footer>
+  <!-- Modal  Lisences-->
+<div id="CN" class="modal modal-bg fade" role="dialog">
+    <div class="modal-dialog">
+  
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h6 class="modal-title">Lisences</h6>
+        </div>
+        <div class="modal-body">
+          <div class="card-deck">
+            <div class="card bg-light border-dark mb-3" style="width: 10rem;">
+                <img src="img/Systems Administrator.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">LART</h5>
+                  <p class="card-text">Bachelor on Network and telecomunication</p>
+                  <a href="http://www.istic.rnu.tn/fr/programme-lart.html" target="_blank" class="btn btn-outline-danger btn-sm">Check programe</a>
+                </div>
+              </div>
+              <div class="card bg-light border-dark mb-3" style="width: 10rem;">
+                  <img src="img/app.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">LFSI</h5>
+                    <p class="card-text">Bachelor on Computer science</p>
+                    <a href="http://www.istic.rnu.tn/fr/programme-lfsi.html" target="_blank" class="btn btn-outline-danger btn-sm">Check programe</a>
+                  </div>
+                </div>
+          </div>
+          <div class="card-deck">
+                <div class="card bg-light border-dark mb-3" style="width: 10rem;">
+                    <img src="img/cloud.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">LFT</h5>
+                      <p class="card-text">Bachelor on telecomunication</p>
+                      <a href="http://www.istic.rnu.tn/fr/programme-lft.html" target="_blank" class="btn btn-outline-danger btn-sm ">Check programe</a>
+                    </div>
+                  </div>
+                  <div class="card bg-light border-dark mb-3" style="width: 10rem;">
+                      <img src="img/network.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">LASE</h5>
+                        <p class="card-text">Bachelor on Systeme automatisation</p>
+                        <a href="http://www.istic.rnu.tn/fr/programme-lase.html" target="_blank" class="btn btn-outline-danger btn-sm ">Check programe</a>
+                      </div>
+                    </div>
+                    </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -258,8 +313,12 @@
   <!-- Custom scripts for this template -->
   <script src="js/creative.min.js"></script>
   <script>
-    function myFunction() {
-      window.open("jobs.html")
+    
+    function fonctionw(l) {
+    var s='job.html'; 
+    s=l; 
+    
+      window.open(s);
     }
     </script>
 </body>
