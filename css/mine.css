@@ -45,7 +45,14 @@
     background-color: #cccccc;
 }
 .backjobs{
-    background-color: rgba(31, 8, 8, 0.89);
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 72px);
+    background: -webkit-gradient(linear,left top,left bottom,from(rgba(92,77,66,.8)),to(rgba(92,77,66,.8))),url(../img/bg-masthead.jpg);
+    background: linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%),url(../img/bg-masthead.jpg);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+    background-size: cover;
 }
 .skills{
     color: blueviolet;
